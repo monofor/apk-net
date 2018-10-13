@@ -9,6 +9,16 @@ This project originaly forked from [hylander0/Iteedee.ApkReader](https://github.
 
 All namespaces are changed and started to maintain actively.
 
+## Nuget Packages
+
+You can find the package on nuget;
+
+[![NuGet](https://img.shields.io/nuget/v/ApkNet.svg)](https://www.nuget.org/packages/ApkNet/)
+
+```sh
+dotnet add package ApkNet
+```
+
 ## Using the ApkReader Library
 
 The library handles everything after you have uncompressed/unzipped the APK using your choice tool or library. I have used the [ICSharpCode.SharpZipLib][5] library to uncompressed the APK in my example.
