@@ -10,7 +10,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ApkNet.ApkReader\ApkNet.ApkReader.csproj" />
+    <ProjectReference Include="..\..\src\ApkNet.ApkReader\ApkNet.ApkReader.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="SampleAPK\ApkReaderSample.apk">
