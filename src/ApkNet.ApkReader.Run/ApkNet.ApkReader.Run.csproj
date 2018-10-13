@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib" Version="1.0.0-alpha2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApkNet.ApkReader\ApkNet.ApkReader.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="SampleAPK\ApkReaderSample.apk">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

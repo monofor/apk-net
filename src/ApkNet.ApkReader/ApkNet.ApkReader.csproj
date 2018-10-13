@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>1.0.0</Version>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>monofor</Authors>
+    <Title>ApkNet</Title>
+    <Description>C# Android Apk Reader</Description>
+    <Company>MonoFor, Inc.</Company>
+    <Copyright>2018, MonoFor, Inc.</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/monofor/apk-net.git</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>ApkNet</PackageId>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/27564595?s=200</PackageIconUrl>
+    <PackageTags>apk android apkreader apknet</PackageTags>
+    <PackageProjectUrl>https://github.com/monofor/apk-net</PackageProjectUrl>
+    <ProjectOwners>monofor</ProjectOwners>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+</Project>
